@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { FotoShawnPage } from '../pages/foto-shawn/foto-shawn';
 import { BiografiaShawnPage } from '../pages/biografia-shawn/biografia-shawn';
 import { CancionesShawnPage } from '../pages/canciones-shawn/canciones-shawn';
+import { ReseñashawnPage } from '../pages/reseñashawn/reseñashawn';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CancionesShawnPage } from '../pages/canciones-shawn/canciones-shawn';
     HomePage,
     FotoShawnPage,
     BiografiaShawnPage,
-    CancionesShawnPage
+    CancionesShawnPage,
+    ReseñashawnPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { CancionesShawnPage } from '../pages/canciones-shawn/canciones-shawn';
     HomePage,
     FotoShawnPage,
     BiografiaShawnPage,
-    CancionesShawnPage
+    CancionesShawnPage,
+    ReseñashawnPage
   ],
   providers: [
     StatusBar,
