@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { FotoShawnPage } from '../pages/foto-shawn/foto-shawn';
 import { BiografiaShawnPage } from '../pages/biografia-shawn/biografia-shawn';
+import { CancionesShawnPage } from '../pages/canciones-shawn/canciones-shawn';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     FotoShawnPage,
-    BiografiaShawnPage
+    BiografiaShawnPage,
+    CancionesShawnPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { BiografiaShawnPage } from '../pages/biografia-shawn/biografia-shawn';
     MyApp,
     HomePage,
     FotoShawnPage,
-    BiografiaShawnPage
+    BiografiaShawnPage,
+    CancionesShawnPage
   ],
   providers: [
     StatusBar,

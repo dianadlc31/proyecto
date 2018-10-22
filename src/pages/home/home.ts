@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { FotoShawnPage } from '../foto-shawn/foto-shawn';
 import { BiografiaShawnPage } from '../biografia-shawn/biografia-shawn';
+import { CancionesShawnPage } from '../canciones-shawn/canciones-shawn';
 
 @Component({
   selector: 'page-home',
@@ -10,6 +11,7 @@ import { BiografiaShawnPage } from '../biografia-shawn/biografia-shawn';
 export class HomePage {
 fotoshawn = FotoShawnPage;
 biografiashawn = BiografiaShawnPage;
+cancionesshawn = CancionesShawnPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -21,5 +23,10 @@ biografiashawn = BiografiaShawnPage;
   {
     this.navCtrl.push(this.biografiashawn);
   }
+  clickcancionesshawn()
+  {
+    this.navCtrl.push(this.cancionesshawn);
+  }
+
 
 }
