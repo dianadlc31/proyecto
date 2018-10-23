@@ -5,6 +5,9 @@ import { BiografiaShawnPage } from '../biografia-shawn/biografia-shawn';
 import { CancionesShawnPage } from '../canciones-shawn/canciones-shawn';
 import { ReseñashawnPage } from '../reseñashawn/reseñashawn';
 import { FotocharliePage } from '../fotocharlie/fotocharlie';
+import { BiografiacharliePage } from '../biografiacharlie/biografiacharlie';
+import { ReseñacharliePage } from '../reseñacharlie/reseñacharlie';
+import { CancionescharliePage } from '../cancionescharlie/cancionescharlie';
 
 @Component({
   selector: 'page-home',
@@ -16,6 +19,10 @@ biografiashawn = BiografiaShawnPage;
 cancionesshawn = CancionesShawnPage;
 resenashawn= ReseñashawnPage;
 fotocharlie= FotocharliePage;
+biografiacharlie= BiografiacharliePage;
+resenacharlie= ReseñacharliePage;
+cancionescharlie= CancionescharliePage;
+
   constructor(public navCtrl: NavController) {
 
   }
@@ -38,6 +45,18 @@ fotocharlie= FotocharliePage;
   clickfotocharlie()
   {
     this.navCtrl.push(this.fotocharlie);
+  }
+  clickbiografiacharlie()
+  {
+    this.navCtrl.push(this.biografiacharlie);
+  }
+  clickresenacharlie()
+  {
+    this.navCtrl.push(this.resenacharlie);
+  }
+  clickcancionescharlie()
+  {
+    this.navCtrl.push(this.cancionescharlie);
   }
 
 

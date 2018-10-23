@@ -11,6 +11,9 @@ import { BiografiaShawnPage } from '../pages/biografia-shawn/biografia-shawn';
 import { CancionesShawnPage } from '../pages/canciones-shawn/canciones-shawn';
 import { ReseñashawnPage } from '../pages/reseñashawn/reseñashawn';
 import { FotocharliePage } from '../pages/fotocharlie/fotocharlie';
+import { BiografiacharliePage } from '../pages/biografiacharlie/biografiacharlie';
+import { ReseñacharliePage } from '../pages/reseñacharlie/reseñacharlie';
+import { CancionescharliePage } from '../pages/cancionescharlie/cancionescharlie';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,11 @@ import { FotocharliePage } from '../pages/fotocharlie/fotocharlie';
     BiografiaShawnPage,
     CancionesShawnPage,
     ReseñashawnPage,
-    FotocharliePage
+    FotocharliePage,
+    BiografiacharliePage,
+    ReseñacharliePage,
+    CancionescharliePage,
+    
   ],
   imports: [
     BrowserModule,
@@ -34,7 +41,10 @@ import { FotocharliePage } from '../pages/fotocharlie/fotocharlie';
     BiografiaShawnPage,
     CancionesShawnPage,
     ReseñashawnPage,
-    FotocharliePage
+    FotocharliePage,
+    BiografiacharliePage,
+    ReseñacharliePage,
+    CancionescharliePage
   ],
   providers: [
     StatusBar,
