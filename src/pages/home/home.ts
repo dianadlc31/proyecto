@@ -12,6 +12,10 @@ import { ReseñaharryPage } from '../reseñaharry/reseñaharry';
 import { CancionesPage } from '../canciones/canciones';
 import { BiografiaharryPage } from '../biografiaharry/biografiaharry';
 import { FotoharryPage } from '../fotoharry/fotoharry';
+import { ReseñasamPage } from '../reseñasam/reseñasam';
+import { FotosamPage } from '../fotosam/fotosam';
+import { BiografiaSamPage } from '../biografia-sam/biografia-sam';
+import { CancionessamPage } from '../cancionessam/cancionessam';
 
 @Component({
   selector: 'page-home',
@@ -30,6 +34,10 @@ resenaharry=ReseñaharryPage;
 cancionesharry= CancionesPage;
 biografiaharry= BiografiaharryPage;
 fotoharry= FotoharryPage;
+resenasam= ReseñasamPage;
+fotosam= FotosamPage;
+biografiasam= BiografiaSamPage;
+cancionessam= CancionessamPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -79,9 +87,25 @@ fotoharry= FotoharryPage;
     this.navCtrl.push(this.biografiaharry);
   }
   clickfotoharry()
-    {
-      this.navCtrl.push(this.fotoharry);
-    }
+  {
+    this.navCtrl.push(this.fotoharry);
+  }
+  clickfotosam()
+  {
+    this.navCtrl.push(this.fotosam);
+  }
+  clickbiografiasam()
+  {
+    this.navCtrl.push(this.biografiasam);
+  }
+  clickcancionessam()
+  {
+    this.navCtrl.push(this.cancionessam);
+  }
+  clickresenasam()
+  {
+    this.navCtrl.push(this.resenasam);
+  }
   
 
 }

@@ -18,6 +18,10 @@ import { CancionesPage } from '../pages/canciones/canciones';
 import { BiografiaharryPage } from '../pages/biografiaharry/biografiaharry';
 import { ReseñaharryPage } from '../pages/reseñaharry/reseñaharry';
 import { FotoharryPage } from '../pages/fotoharry/fotoharry';
+import { ReseñasamPage } from '../pages/reseñasam/reseñasam';
+import { BiografiaSamPage } from '../pages/biografia-sam/biografia-sam';
+import { CancionessamPage } from '../pages/cancionessam/cancionessam';
+import { FotosamPage } from '../pages/fotosam/fotosam';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import { FotoharryPage } from '../pages/fotoharry/fotoharry';
     CancionesPage,
     BiografiaharryPage,
     ReseñaharryPage,
-    FotoharryPage
+    FotoharryPage,
+    ReseñasamPage,
+    BiografiaSamPage,
+    CancionessamPage,
+    FotosamPage
     
   ],
   imports: [
@@ -56,7 +64,11 @@ import { FotoharryPage } from '../pages/fotoharry/fotoharry';
     CancionesPage,
     BiografiaharryPage,
     ReseñaharryPage,
-    FotoharryPage
+    FotoharryPage,
+    ReseñasamPage,
+    BiografiaSamPage,
+    FotosamPage,
+    CancionessamPage
   ],
   providers: [
     StatusBar,
