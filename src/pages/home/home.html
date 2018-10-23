@@ -69,15 +69,15 @@
         <ion-card style= "background-color:lightpink; border-radius: 10px">
             <ion-row>
                 <ion-col>
-                  <img src="https://cdn.smehost.net/sonymusices-45pressprod/wp-content/uploads/2017/04/Promo-only-cover.jpg">
+                  <img src="https://cdn.smehost.net/sonymusices-45pressprod/wp-content/uploads/2017/04/Promo-only-cover.jpg" (click)="clickfotoharry()">
                 </ion-col>
             
                 <ion-col>
-                    <p style="text-align:center"><h2>Harry Styles</h2>
-                      <p style="text-align:center">  <p>Harry Styles</p>
+                    <p style="text-align:center"><h2 (click)="clickbiografiaharry()">Harry Styles</h2>
+                      <p style="text-align:center">  <p (click)= "clickcancionesharry()">Harry Styles</p>
                       <p style="text-align:center"> </p><h3>2017</h3>
                 
-                <button ion-button color="dark" icon-start clear small>
+                <button ion-button color="dark" icon-start clear small (click)="clickresenaharry()"> 
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>
                 <ion-icon name="star"></ion-icon>

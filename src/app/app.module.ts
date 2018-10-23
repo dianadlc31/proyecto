@@ -14,6 +14,10 @@ import { FotocharliePage } from '../pages/fotocharlie/fotocharlie';
 import { BiografiacharliePage } from '../pages/biografiacharlie/biografiacharlie';
 import { ReseñacharliePage } from '../pages/reseñacharlie/reseñacharlie';
 import { CancionescharliePage } from '../pages/cancionescharlie/cancionescharlie';
+import { CancionesPage } from '../pages/canciones/canciones';
+import { BiografiaharryPage } from '../pages/biografiaharry/biografiaharry';
+import { ReseñaharryPage } from '../pages/reseñaharry/reseñaharry';
+import { FotoharryPage } from '../pages/fotoharry/fotoharry';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { CancionescharliePage } from '../pages/cancionescharlie/cancionescharlie
     BiografiacharliePage,
     ReseñacharliePage,
     CancionescharliePage,
+    CancionesPage,
+    BiografiaharryPage,
+    ReseñaharryPage,
+    FotoharryPage
     
   ],
   imports: [
@@ -44,7 +52,11 @@ import { CancionescharliePage } from '../pages/cancionescharlie/cancionescharlie
     FotocharliePage,
     BiografiacharliePage,
     ReseñacharliePage,
-    CancionescharliePage
+    CancionescharliePage,
+    CancionesPage,
+    BiografiaharryPage,
+    ReseñaharryPage,
+    FotoharryPage
   ],
   providers: [
     StatusBar,
